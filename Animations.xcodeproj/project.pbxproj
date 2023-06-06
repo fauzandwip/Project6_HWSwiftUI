@@ -12,6 +12,7 @@
 		7B8307CE2A2DC7E900D38896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8307CD2A2DC7E900D38896 /* Assets.xcassets */; };
 		7B8307D12A2DC7E900D38896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8307D02A2DC7E900D38896 /* Preview Assets.xcassets */; };
 		7BC4FC0D2A2F2242005BF3EA /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */; };
+		7BC4FC0F2A2F229C005BF3EA /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7B8307CD2A2DC7E900D38896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B8307D02A2DC7E900D38896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
+		7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7B8307C92A2DC7E800D38896 /* AnimationsApp.swift */,
 				7B8307CB2A2DC7E800D38896 /* ContentView.swift */,
 				7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */,
+				7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */,
 				7B8307CD2A2DC7E900D38896 /* Assets.xcassets */,
 				7B8307CF2A2DC7E900D38896 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC4FC0F2A2F229C005BF3EA /* ExplicitAnimations.swift in Sources */,
 				7B8307CC2A2DC7E800D38896 /* ContentView.swift in Sources */,
 				7B8307CA2A2DC7E800D38896 /* AnimationsApp.swift in Sources */,
 				7BC4FC0D2A2F2242005BF3EA /* AnimatingBindings.swift in Sources */,
