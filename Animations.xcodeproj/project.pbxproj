@@ -15,6 +15,7 @@
 		7BC4FC0F2A2F229C005BF3EA /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */; };
 		7BC4FC112A2F22E8005BF3EA /* ControllingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */; };
 		7BC4FC132A2F2312005BF3EA /* GestureAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */; };
+		7BC4FC152A2F234D005BF3EA /* ShowHideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC142A2F234D005BF3EA /* ShowHideTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimations.swift; sourceTree = "<group>"; };
 		7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimations.swift; sourceTree = "<group>"; };
+		7BC4FC142A2F234D005BF3EA /* ShowHideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7B8307C92A2DC7E800D38896 /* AnimationsApp.swift */,
 				7B8307CB2A2DC7E800D38896 /* ContentView.swift */,
 				7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */,
+				7BC4FC142A2F234D005BF3EA /* ShowHideTransition.swift */,
 				7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */,
 				7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */,
 				7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC4FC0F2A2F229C005BF3EA /* ExplicitAnimations.swift in Sources */,
+				7BC4FC152A2F234D005BF3EA /* ShowHideTransition.swift in Sources */,
 				7BC4FC112A2F22E8005BF3EA /* ControllingAnimations.swift in Sources */,
 				7B8307CC2A2DC7E800D38896 /* ContentView.swift in Sources */,
 				7B8307CA2A2DC7E800D38896 /* AnimationsApp.swift in Sources */,
