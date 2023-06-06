@@ -14,6 +14,7 @@
 		7BC4FC0D2A2F2242005BF3EA /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */; };
 		7BC4FC0F2A2F229C005BF3EA /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */; };
 		7BC4FC112A2F22E8005BF3EA /* ControllingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */; };
+		7BC4FC132A2F2312005BF3EA /* GestureAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimations.swift; sourceTree = "<group>"; };
+		7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7BC4FC0C2A2F2242005BF3EA /* AnimatingBindings.swift */,
 				7BC4FC0E2A2F229C005BF3EA /* ExplicitAnimations.swift */,
 				7BC4FC102A2F22E8005BF3EA /* ControllingAnimations.swift */,
+				7BC4FC122A2F2312005BF3EA /* GestureAnimations.swift */,
 				7B8307CD2A2DC7E900D38896 /* Assets.xcassets */,
 				7B8307CF2A2DC7E900D38896 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				7BC4FC112A2F22E8005BF3EA /* ControllingAnimations.swift in Sources */,
 				7B8307CC2A2DC7E800D38896 /* ContentView.swift in Sources */,
 				7B8307CA2A2DC7E800D38896 /* AnimationsApp.swift in Sources */,
+				7BC4FC132A2F2312005BF3EA /* GestureAnimations.swift in Sources */,
 				7BC4FC0D2A2F2242005BF3EA /* AnimatingBindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
