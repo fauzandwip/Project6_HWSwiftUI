@@ -1,44 +1,19 @@
 //
-//  GestureAnimations.swift
+//  AnimatedGesture2.swift
 //  Animations
 //
-//  Created by Fauzan Dwi Prasetyo on 05/06/23.
+//  Created by Fauzan Dwi Prasetyo on 22/06/23.
 //
 
 import SwiftUI
 
-struct GestureAnimationsView: View {
+struct AnimatedGesture2View: View {
     let letters = Array("Hello SwiftUI")
     
     @State private var dragAmount = CGSize.zero
     @State private var enabled = false
     
     var body: some View {
-        
-        // MARK: - First Content
-        
-        VStack {
-            LinearGradient(colors: [.yellow, .red], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .frame(width: 300, height: 200)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-                .offset(dragAmount)
-                .gesture(
-                    DragGesture()
-                        .onChanged { dragAmount = $0.translation }
-                        .onEnded { _ in
-                            // explicit animation
-                            withAnimation(.spring()) {
-                                dragAmount = .zero
-                            }
-                        }
-                )
-            // implicit animation
-            //            .animation(.spring(), value: dragAmount)
-        }
-        
-        
-        // MARK: - Second Content
-        
         VStack {
             HStack(spacing: 0) {
                 ForEach(0..<letters.count, id: \.self) { num in
@@ -67,8 +42,8 @@ struct GestureAnimationsView: View {
     }
 }
 
-struct GestureAnimationsView_Previews: PreviewProvider {
+struct AnimatedGesture2View_Previews: PreviewProvider {
     static var previews: some View {
-        GestureAnimationsView()
+        AnimatedGesture2View()
     }
 }

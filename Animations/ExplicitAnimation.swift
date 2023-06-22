@@ -1,5 +1,5 @@
 //
-//  ExplicitAnimations.swift
+//  ExplicitAnimation.swift
 //  Animations
 //
 //  Created by Fauzan Dwi Prasetyo on 05/06/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExplicitAnimationsView: View {
+struct ExplicitAnimationView: View {
     @State private var animationAmount = 0.0
     
     var body: some View {
@@ -24,8 +24,8 @@ struct ExplicitAnimationsView: View {
     }
 }
 
-struct ExplicitAnimationsView_Previews: PreviewProvider {
+struct ExplicitAnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        ExplicitAnimationsView()
+        ExplicitAnimationView()
     }
 }

@@ -1,5 +1,5 @@
 //
-//  ControllingAnimations.swift
+//  AnimationStack.swift
 //  Animations
 //
 //  Created by Fauzan Dwi Prasetyo on 05/06/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ControllingAnimationsView: View {
+struct AnimationStackView: View {
     @State private var enabled = false
     
     var body: some View {
@@ -23,8 +23,8 @@ struct ControllingAnimationsView: View {
     }
 }
 
-struct ControllingAnimationsView_Previews: PreviewProvider {
+struct AnimationStackView_Previews: PreviewProvider {
     static var previews: some View {
-        ControllingAnimationsView()
+        AnimationStackView()
     }
 }
